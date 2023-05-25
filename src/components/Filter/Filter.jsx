@@ -4,8 +4,9 @@ import PropTypes from 'prop-types';
 
 import { FilterField } from './Filter.styled';
 
+const filterId = shortid.generate();
+
 export const Filter = ({ filter, onChange }) => {
-  const filterId = shortid.generate();
   return (
     <FilterField>
       <label htmlFor={filterId}>Find contacts by name</label>
