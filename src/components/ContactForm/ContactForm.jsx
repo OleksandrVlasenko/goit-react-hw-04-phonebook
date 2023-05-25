@@ -14,7 +14,6 @@ export const ContactForm = ({ addContact, equalContacts }) => {
 
   const handleChange = e => {
     const { name, value } = e.currentTarget;
-    console.log('handleChange  name:', name);
 
     switch (name) {
       case 'name':
